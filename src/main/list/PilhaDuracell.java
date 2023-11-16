@@ -17,4 +17,8 @@ public class PilhaDuracell {
         lista.removeInicio();
         return a;
     }
+
+    public int indiceFinal(){
+        return lista.indiceFinal();
+    }
 }
