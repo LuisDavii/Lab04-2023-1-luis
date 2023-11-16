@@ -2,12 +2,10 @@ public class PilhaDuracell {
     ListaLigada lista=null;
     
     public boolean isEmpty(){
-        if(lista==null){
+        if(lista.cabeca==null){
             return true; 
         }
-        else{
         return false;
-        }
     }
 
     public void push(int item){
